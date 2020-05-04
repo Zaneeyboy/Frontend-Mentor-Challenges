@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400,600&display=swap');
+
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color:hsl(0, 0%, 98%);
+    font-family:"Poppins",sans-serif;
+}
+
+header{
+    text-align: center;
+    max-width:500px;
+    margin:50px auto;
+}
+
+h1{
+    margin:0;
+    font-weight:200;
+}
+
+p{
+    font-weight:200;
+    color:hsl(229, 6%, 66%);
+}
+
+header .emphasized-title{
+    font-weight:600;
+}
+
+.box-container{
+    display:flex;
+    margin:0 auto;
+    max-width:1140px;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.box{
+    background-color:#fff;
+    width:350px;
+    padding:30px;
+    margin:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.05),0 6px 6px rgba(0,0,0,0.01);
+    border-radius:5px;
+}
+
+.red{
+    border-top:5px solid hsl(0, 78%, 62%);
+}
+
+.green{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.yellow{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.blue{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+
+.box h2{
+    margin:0;
+}
+
+.box p{
+    font-size:15px;
+    margin:15px 0 30px;
+}
+
+.box img{
+    display:block;
+    margin-left:auto;
+}
+
+.push{
+    transform: translateY(50%);
+}
+
+@media(max-width:775px){
+    .push{
+        transform:translateY(0);
+    }
+}
